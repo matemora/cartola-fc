@@ -18,6 +18,7 @@ func NewMatchResult(teamAScore, teamBScore int) *MatchResult {
 }
 
 func (m *MatchResult) GetResult() string {
+	// 1-0
 	return strconv.Itoa(m.teamAScore) + "-" + strconv.Itoa(m.teamBScore)
 }
 
